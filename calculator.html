@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css" type="text/css" />
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="output-container">
+            <div id="result"></div>
+            <div id="output"></div>
+        </div>
+        <div class="input">
+            <div class="input-row">
+                <button id="clear" class="action">C</button>
+                <button id="minusToggle" class="minusToggle action">+/-</button>
+                <button id="delete" class="action">DEL</button>
+                <button class="operator">÷</button>
+            </div>
+            <div class="input-row">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="operator">×</button>
+            </div>
+            <div class="input-row">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="operator">-</button>
+            </div>
+            <div class="input-row">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="operator">+</button>
+            </div>
+            <div class="input-row">
+                <button class="two-span">0</button>
+                <button class="operator" id="dot">.</button>
+                <button id="calculate" class="action">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="calculator.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
